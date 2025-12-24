@@ -35,7 +35,7 @@ const Founder: React.FC = () => {
                  <p className="text-xl text-white/60 font-light mb-8 max-w-lg leading-relaxed">
                     Meet Bhanu Deep. A strategist who believes that marketing without data is just art, and art without strategy is just noise.
                  </p>
-                 <Button onClick={() => window.location.href = 'https://calendly.com/bhanudeep-workprofile/30min'}>
+                 <Button onClick={() => { window.location.href = 'https://calendly.com/bhanudeep-workprofile/30min'; }}>
                     Schedule a Strategy Call
                  </Button>
             </motion.div>
@@ -143,7 +143,7 @@ const Founder: React.FC = () => {
               <p className="text-xl text-white/50 mb-12 max-w-2xl mx-auto">
                   I personally oversee the strategy for every client we partner with. Let's see if we're a good fit.
               </p>
-              <Button onClick={() => window.location.href = 'https://calendly.com/bhanudeep-workprofile/30min'}>
+              <Button onClick={() => { window.location.href = 'https://calendly.com/bhanudeep-workprofile/30min'; }}>
                   Book Your Discovery Call
               </Button>
           </FadeIn>

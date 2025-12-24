@@ -338,7 +338,7 @@ const AuditPopup = ({ onClose }: { onClose: () => void }) => {
                     Identify your funnel leaks and growth gaps. Data-driven and completely free.
                  </p>
                  <Button
-                    onClick={() => window.location.href = 'https://calendly.com/bhanudeep-workprofile/30min'}
+                    onClick={() => { window.location.href = 'https://calendly.com/bhanudeep-workprofile/30min'; }}
                     className="w-full text-xs py-3 h-auto"
                 >
                     Get Free Audit
@@ -692,7 +692,7 @@ const Home: React.FC = () => {
               transition={{ delay: 1.0, type: "spring" }}
               className="flex justify-center z-10"
             >
-              <Button onClick={() => window.location.href = 'https://calendly.com/bhanudeep-workprofile/30min'}>Book a Strategy Call</Button>
+              <Button onClick={() => { window.location.href = 'https://calendly.com/bhanudeep-workprofile/30min'; }}>Book a Strategy Call</Button>
           </motion.div>
         </div>
       </section>
@@ -1003,7 +1003,7 @@ const Home: React.FC = () => {
               No sales pitches. Just a strategy session to see if we're a fit.
             </p>
             <Button 
-                onClick={() => window.location.href = 'https://calendly.com/bhanudeep-workprofile/30min'}
+                onClick={() => { window.location.href = 'https://calendly.com/bhanudeep-workprofile/30min'; }}
                 className="mx-auto" 
                 style={{ minWidth: '200px' }}
             >

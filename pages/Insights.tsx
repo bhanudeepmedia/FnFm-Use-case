@@ -372,7 +372,7 @@ const Insights: React.FC = () => {
              <p className="text-xl text-white/50 mb-12 max-w-2xl mx-auto font-light">
                  We position ourselves as a strategic infrastructure partner, not just a service provider.
              </p>
-             <Button className="mx-auto" onClick={() => window.location.href = 'https://calendly.com/bhanudeep-workprofile/30min'}>
+             <Button className="mx-auto" onClick={() => { window.location.href = 'https://calendly.com/bhanudeep-workprofile/30min'; }}>
                   Build Your Strategy
              </Button>
          </FadeIn>

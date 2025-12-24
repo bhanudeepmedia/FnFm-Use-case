@@ -406,7 +406,7 @@ const Approach: React.FC = () => {
                             </div>
                         </div>
 
-                        <Button onClick={() => window.location.href='https://calendly.com/bhanudeep-workprofile/30min'}>Start Your Engine</Button>
+                        <Button onClick={() => { window.location.href='https://calendly.com/bhanudeep-workprofile/30min'; }}>Start Your Engine</Button>
                     </FadeIn>
                  </div>
                  

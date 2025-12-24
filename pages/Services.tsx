@@ -347,7 +347,7 @@ const OnsiteVisual = () => (
             </div>
 
             {/* Crosshairs */}
-            <div className="absolute inset-0 flex items-center justify-center">
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-10">
                 <div className="w-4 h-4 border border-white/30 opacity-50 relative">
                      <div className="absolute top-1/2 -left-2 w-8 h-px bg-white/30" />
                      <div className="absolute left-1/2 -top-2 h-8 w-px bg-white/30" />
@@ -584,7 +584,7 @@ const Services: React.FC = () => {
       </div>
       
       <div className="mt-32 text-center">
-        <Button onClick={() => window.location.href='https://calendly.com/bhanudeep-workprofile/30min'}>Start Your Project</Button>
+        <Button onClick={() => { window.location.href='https://calendly.com/bhanudeep-workprofile/30min'; }}>Start Your Project</Button>
       </div>
 
     </div>

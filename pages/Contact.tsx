@@ -81,7 +81,7 @@ const Contact: React.FC = () => {
                 </div>
 
                 <Button 
-                    onClick={() => window.location.href = 'https://calendly.com/bhanudeep-workprofile/30min'}
+                    onClick={() => { window.location.href = 'https://calendly.com/bhanudeep-workprofile/30min'; }}
                     fullWidth
                     className="group py-5 text-lg"
                 >

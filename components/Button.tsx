@@ -1,8 +1,8 @@
 import React, { useRef, useState } from 'react';
-import { motion, HTMLMotionProps } from 'framer-motion';
+import { motion } from 'framer-motion';
 
-interface ButtonProps extends HTMLMotionProps<"button"> {
-  children: React.ReactNode;
+// Use ComponentPropsWithoutRef to correctly inherit all motion and HTML button attributes
+interface ButtonProps extends React.ComponentPropsWithoutRef<typeof motion.button> {
   variant?: 'primary' | 'outline' | 'ghost';
   fullWidth?: boolean;
 }

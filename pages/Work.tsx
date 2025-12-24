@@ -343,7 +343,7 @@ const Work: React.FC = () => {
            <p className="text-white/60 mb-10 max-w-2xl mx-auto">
              Whether it's visuals that stop the scroll or sounds that stick in the mind, we build it.
            </p>
-           <Button onClick={() => window.location.href = 'https://calendly.com/bhanudeep-workprofile/30min'}>
+           <Button onClick={() => { window.location.href = 'https://calendly.com/bhanudeep-workprofile/30min'; }}>
               Book a Demo
            </Button>
         </div>
